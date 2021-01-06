@@ -1,0 +1,16 @@
+int middle(int A, int B, int C){
+    if(A>C){
+            return (B>C)?B :min(A,C);
+        }
+        
+            return (B<C)? B : max(A,C);
+}
+
+int main()
+{
+    
+    int a,b,c;
+    cin>>a>>b>>c;
+    cout<<middle(a,b,c);
+    return 0;
+}
